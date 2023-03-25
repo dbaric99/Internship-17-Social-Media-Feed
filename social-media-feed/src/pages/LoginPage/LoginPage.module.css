@@ -1,0 +1,21 @@
+.loginForm {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+.loginForm > * {
+    margin-bottom: 20px;
+}
+
+.inputField {
+    width: 300px;
+}
+.inputField input {
+    padding: 10px;
+}
+.inputField label {
+    top: -6px;
+}

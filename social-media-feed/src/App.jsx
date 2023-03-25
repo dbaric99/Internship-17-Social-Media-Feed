@@ -1,8 +1,11 @@
 import Router from './components/Router';
+import { StyledEngineProvider } from '@mui/material';
 
 function App() {
   return (
-    <Router />
+    <StyledEngineProvider injectFirst>
+      <Router />
+    </StyledEngineProvider>
   );
 }
 
