@@ -4,7 +4,7 @@ import {
     Route,
     RouterProvider
 } from 'react-router-dom';
-import { FeedPage, LoginPage, NotFoundPage, PostPage } from '../pages';
+import { FeedPage, LoginPage, NotFoundPage, PostPage } from 'pages'; 
 import { HeaderLayout } from './Layout';
 
 const router = createBrowserRouter(
