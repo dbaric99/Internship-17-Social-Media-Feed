@@ -1,8 +1,8 @@
-import {loginConstants} from "../constants/loginConstants";
+import {DEFAULT_USER} from "../constants/loginConstants";
 
 const getFromLocalStorage = (key) => {
     if (window.localStorage.getItem(key) === null) {
-        setToLocalStorage(key, JSON.stringify(loginConstants.DEFAULT_USER));
+        setToLocalStorage(key, DEFAULT_USER);
     }
     return JSON.parse(window.localStorage.getItem(key));
 }
