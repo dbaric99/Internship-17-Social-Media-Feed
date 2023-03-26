@@ -1,0 +1,8 @@
+.navigationWrapper {
+    position: sticky;
+    top: 0;
+}
+
+.barWrapper {
+    background-color: var(--background);
+}

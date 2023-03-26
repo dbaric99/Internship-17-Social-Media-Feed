@@ -5,9 +5,21 @@
     min-height: 100vh;
     margin-right: auto;
     margin-left: auto;
+    color: var(--white);
 }
 .loginForm > * {
     margin-bottom: 20px;
+}
+.loginFormWrapper {
+    background-color: var(--background);
+    border-radius: 10px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .inputField {
@@ -15,7 +27,22 @@
 }
 .inputField input {
     padding: 10px;
+    color: var(--white);
 }
 .inputField label {
     top: -6px;
+    color: var(--white);
+    opacity: 0.5;
+}
+.inputField fieldset {
+    border-color: var(--white) !important;
+}
+
+.loginButton {
+    background-color: var(--primary);
+    color: var(--white);
+    cursor: pointer;
+}
+.loginButton:hover {
+    background-color: var(--primary-variant);
 }

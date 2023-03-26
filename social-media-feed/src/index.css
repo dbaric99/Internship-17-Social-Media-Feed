@@ -1,5 +1,11 @@
 :root {
-
+  --primary: #bb86fc;
+  --primary-variant: #3700b3;
+  --secondary: #03dac6;
+  --background: #121212;
+  --background-variant: #292929;
+  --error: #cf6679;
+  --white: #fff;
 }
 
 * {
@@ -8,4 +14,5 @@
 
 body {
   margin: 0;
+  background-color: var(--background-variant);
 }
