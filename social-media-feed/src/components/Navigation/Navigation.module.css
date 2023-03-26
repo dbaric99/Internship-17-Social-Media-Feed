@@ -6,3 +6,16 @@
 .barWrapper {
     background-color: var(--background);
 }
+
+.navigationBar {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.submitButton {
+    margin-left: 20px;
+    background-color: var(--primary);
+}
+.submitButton:hover {
+    background-color: var(--primary-variant);
+}

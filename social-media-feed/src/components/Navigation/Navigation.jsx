@@ -1,6 +1,4 @@
 import { Button } from "@mui/material";
-import * as React from "react";
-import { styled, alpha } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -13,7 +11,7 @@ function Navigation() {
   return (
     <Box sx={{ flexGrow: 1 }} className={styles.navigationWrapper}>
       <AppBar position="static" className={styles.barWrapper}>
-        <Toolbar>
+        <Toolbar className={styles.navigationBar}>
           <Typography
             variant="h6"
             noWrap
@@ -31,7 +29,7 @@ function Navigation() {
               inputProps={{ "aria-label": "search" }}
             />
           </styleConstants.Search>
-          <Button variant="contained">submit</Button>
+          <Button variant="contained" className={styles.submitButton}>submit</Button>
         </Toolbar>
       </AppBar>
     </Box>
