@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "userPhotoUrl": "https://randomuser.me/api/portraits/women/10.jpg",
+      "username": "Jane",
+      "timestamp": "2023-03-27T10:00:00Z",
+      "text": "I just finished reading the book 'The Alchemist' by Paulo Coelho and I loved it! The book is a great reminder that we all have a purpose in life and that we should follow our dreams no matter what. Highly recommend it!",
+      "comments": [
+        {
+          "id": 2,
+          "userPhotoUrl": "https://randomuser.me/api/portraits/men/10.jpg",
+          "username": "John",
+          "timestamp": "2023-03-27T10:05:00Z",
+          "text": "Thanks for the recommendation, Jane! I've been meaning to read that book for a while now."
+        },
+        {
+          "id": 3,
+          "userPhotoUrl": "https://randomuser.me/api/portraits/women/20.jpg",
+          "username": "Sarah",
+          "timestamp": "2023-03-27T10:10:00Z",
+          "text": "I've read 'The Alchemist' too, and I agree with you, Jane! It's a beautiful book that reminds us to follow our dreams and listen to our hearts."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "userPhotoUrl": "https://randomuser.me/api/portraits/men/20.jpg",
+      "username": "David",
+      "timestamp": "2023-03-27T11:00:00Z",
+      "text": "Just finished a 10k run and feeling great! Running is such a great way to clear your mind and stay healthy. If you haven't tried it yet, give it a shot!",
+      "comments": [
+        {
+          "id": 5,
+          "userPhotoUrl": "https://randomuser.me/api/portraits/women/30.jpg",
+          "username": "Emily",
+          "timestamp": "2023-03-27T11:05:00Z",
+          "text": "I love running too, David! It's such a great way to stay in shape and relieve stress."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "userPhotoUrl": "https://randomuser.me/api/portraits/women/40.jpg",
+      "username": "Alice",
+      "timestamp": "2023-03-27T12:00:00Z",
+      "text": "Just got back from a trip to Japan and it was amazing! The food, the culture, the people - everything was so beautiful and interesting. I can't wait to go back!",
+      "comments": [
+        {
+          "id": 7,
+          "userPhotoUrl": "https://randomuser.me/api/portraits/men/30.jpg",
+          "username": "Michael",
+          "timestamp": "2023-03-27T12:05:00Z",
+          "text": "I've always wanted to go to Japan, Alice! It's on my bucket list for sure."
+        }
+      ]
+    }
+  ]
+}
