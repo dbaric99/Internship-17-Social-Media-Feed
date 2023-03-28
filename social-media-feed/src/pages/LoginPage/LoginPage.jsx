@@ -18,8 +18,8 @@ function LoginPage() {
         ...user,
         loginCap: timeUtil.calculateLoginCap(12).toISOString(),
       };
+      localStorageUtil.setToLocalStorage("user", updatedUser);
       setUser(updatedUser);
-      localStorageUtil.setToLocalStorage("user", user);
     }
   }
 
