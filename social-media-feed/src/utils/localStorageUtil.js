@@ -15,7 +15,7 @@ const deleteFromLocalStorage = (key) => {
     window.localStorage.removeItem(key);
 }
 
-export const localStorageHelper = {
+export const localStorageUtil = {
     getFromLocalStorage,
     setToLocalStorage,
     deleteFromLocalStorage,

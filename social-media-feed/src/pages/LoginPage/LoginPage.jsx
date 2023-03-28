@@ -1,6 +1,5 @@
 import { TextField, Button, FormControl } from "@mui/material";
-import { localStorageHelper } from "helpers";
-import { timeUtil } from "utils";
+import { timeUtil, localStorageUtil } from "utils";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./LoginPage.module.css";
@@ -10,7 +9,7 @@ function LoginPage() {
   const [username, setUsername] = useState(null);
   const [password, setPassword] = useState(null);
   const [user, setUser] = useState(
-    localStorageHelper.getFromLocalStorage("user")
+    localStorageUtil.getFromLocalStorage("user")
   );
 
   function handleFormSubmit() {
@@ -20,7 +19,7 @@ function LoginPage() {
         loginCap: timeUtil.calculateLoginCap(12).toISOString(),
       };
       setUser(updatedUser);
-      localStorageHelper.setToLocalStorage("user", user);
+      localStorageUtil.setToLocalStorage("user", user);
     }
   }
 

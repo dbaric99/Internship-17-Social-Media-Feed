@@ -44,5 +44,5 @@
     cursor: pointer;
 }
 .loginButton:hover {
-    background-color: var(--primary-variant);
+    background-color: var(--secondary);
 }

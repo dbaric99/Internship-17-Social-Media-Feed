@@ -1,0 +1,45 @@
+.cardWrapper {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.profilePhoto {
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid var(--secondary);
+}
+.username {
+    color: var(--gray);
+    font-size: 12px;
+    margin-left: 5px;
+}
+.userProfileName {
+    margin-left: 10px;
+}
+.userAreaWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.postText {
+    margin-bottom: 20px;
+}
+.postTimestamp {
+    color: var(--gray);
+    font-size: 12px;
+}
+.commentCount {
+    margin: 5px;
+    font-size: 11px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: var(--white);
+    text-align: center;
+    line-height: 25px;
+}
+.postButton {
+    color: var(--primary);
+    font-size: 11px;
+}
