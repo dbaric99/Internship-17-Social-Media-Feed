@@ -17,7 +17,7 @@ const router = createBrowserRouter(
                 <Route path=':postId' element={<PostPage />}/>
               </Route>
             </Route>
-            <Route path='*' element={NotFoundPage}/>
+            <Route path='*' element={<NotFoundPage />}/>
         </>
     )
 )

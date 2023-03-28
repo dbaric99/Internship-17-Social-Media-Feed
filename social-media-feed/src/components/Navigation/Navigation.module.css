@@ -3,6 +3,12 @@
     top: 0;
 }
 
+.logo {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--white);
+}
+
 .barWrapper {
     background-color: var(--background);
 }

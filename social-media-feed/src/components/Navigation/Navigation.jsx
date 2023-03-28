@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography";
 import SearchIcon from "@mui/icons-material/Search";
 import styles from "./Navigation.module.css";
 import { styleConstants } from "constants";
+import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
@@ -18,7 +19,9 @@ function Navigation() {
             component="div"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
-            Social Feed
+            <Link className={styles.logo} to="posts">
+              Social Feed
+            </Link>
           </Typography>
           <styleConstants.Search>
             <styleConstants.SearchIconWrapper>
@@ -29,7 +32,9 @@ function Navigation() {
               inputProps={{ "aria-label": "search" }}
             />
           </styleConstants.Search>
-          <Button variant="contained" className={styles.submitButton}>submit</Button>
+          <Button variant="contained" className={styles.submitButton}>
+            submit
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>
