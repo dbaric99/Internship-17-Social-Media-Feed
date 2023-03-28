@@ -20,6 +20,8 @@ function LoginPage() {
       };
       localStorageUtil.setToLocalStorage("user", updatedUser);
       setUser(updatedUser);
+    } else {
+      alert("No user found!");
     }
   }
 
