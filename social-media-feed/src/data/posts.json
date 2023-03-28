@@ -10,7 +10,7 @@
         "userPhotoUrl": "https://randomuser.me/api/portraits/men/10.jpg",
         "profileName": "John",
         "username": "john_doe_007",
-        "timestamp": "2023-03-27T10:05:00Z",
+        "timestamp": "2023-03-29T10:05:00Z",
         "text": "Thanks for the recommendation, Jane! I've been meaning to read that book for a while now."
       },
       {
@@ -18,7 +18,7 @@
         "userPhotoUrl": "https://randomuser.me/api/portraits/women/20.jpg",
         "profileName": "Sarah",
         "username": "sarahlee_24_fitness",
-        "timestamp": "2023-03-27T10:10:00Z",
+        "timestamp": "2023-03-29T10:10:00Z",
         "text": "I've read 'The Alchemist' too, and I agree with you, Jane! It's a beautiful book that reminds us to follow our dreams and listen to our hearts."
       }
     ]
@@ -54,5 +54,97 @@
       "timestamp": "2023-03-27T12:05:00Z",
       "text": "I've always wanted to go to Japan, Alice! It's on my bucket list for sure."
     }]
-  }
+  },
+  {
+    "id": 8,
+    "userPhotoUrl": "https://randomuser.me/api/portraits/men/50.jpg",
+    "profileName": "Tom",
+    "username": "tom_hanks_fan",
+    "timestamp": "2023-03-29T10:00:00Z",
+    "text": "I just watched 'Forrest Gump' again and it's still one of my favorite movies. Tom Hanks is such a great actor and the story is so heartwarming. If you haven't seen it yet, I highly recommend it!",
+    "comments": [{
+      "id": 9,
+      "userPhotoUrl": "https://randomuser.me/api/portraits/women/50.jpg",
+      "profileName": "Amy",
+      "username": "amy_adventures",
+      "timestamp": "2023-03-29T10:05:00Z",
+      "text": "I love 'Forrest Gump' too, Tom! It's such a touching story and Tom Hanks is amazing in it."
+    }]
+  },
+  {
+    "id": 10,
+    "userPhotoUrl": "https://randomuser.me/api/portraits/women/60.jpg",
+    "profileName": "Emma",
+    "username": "emma_dance",
+    "timestamp": "2023-03-28T14:00:00Z",
+    "text": "I just finished a dance performance and it was incredible! Dancing is such a beautiful form of expression and I feel so alive when I'm on stage. If you haven't tried it yet, give it a shot!",
+    "comments": [{
+      "id": 11,
+      "userPhotoUrl": "https://randomuser.me/api/portraits/men/60.jpg",
+      "profileName": "William",
+      "username": "william_music",
+      "timestamp": "2023-03-28T14:05:00Z",
+      "text": "I love watching dance performances, Emma! It's amazing how much emotion and storytelling can be conveyed through dance."
+    }]
+  },
+  {
+    "id": 12,
+    "userPhotoUrl": "https://randomuser.me/api/portraits/men/40.jpg",
+    "profileName": "Kevin",
+    "username": "kevin_robinson_traveler",
+    "timestamp": "2023-03-29T08:00:00Z",
+    "text": "I just got back from a solo trip to Europe and it was amazing! I visited 6 countries in 3 weeks and met some incredible people along the way. Traveling alone can be daunting, but it's also incredibly rewarding. Would highly recommend it!",
+    "comments": [
+      {
+        "id": 13,
+        "userPhotoUrl": "https://randomuser.me/api/portraits/women/50.jpg",
+        "profileName": "Jessica",
+        "username": "jessica_cooking_adventures",
+        "timestamp": "2023-03-29T08:05:00Z",
+        "text": "Wow, Kevin! That sounds like an incredible trip. What was your favorite country that you visited?"
+      },
+      {
+        "id": 14,
+        "userPhotoUrl": "https://randomuser.me/api/portraits/men/49.jpg",
+        "profileName": "Thomas",
+        "username": "thomas_johnson_music",
+        "timestamp": "2023-03-29T08:10:00Z",
+        "text": "I've always wanted to travel solo, Kevin! Did you have any tips for staying safe and meeting new people?"
+      },
+      {
+        "id": 15,
+        "userPhotoUrl": "https://randomuser.me/api/portraits/women/69.jpg",
+        "profileName": "Megan",
+        "username": "megan_smith_health",
+        "timestamp": "2023-03-29T08:15:00Z",
+        "text": "Kevin, that's so inspiring! I've been wanting to take a solo trip for a while now but have been too scared to do it. You've inspired me to take the plunge!"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "userPhotoUrl": "https://randomuser.me/api/portraits/women/70.jpg",
+    "profileName": "Sophie",
+    "username": "sophie_baker",
+    "timestamp": "2023-03-28T15:00:00Z",
+    "text": "I just made the most delicious chocolate cake using a recipe I found online! Baking is such a fun and rewarding hobby. If you haven't tried it yet, I highly recommend it!",
+    "comments": [
+      {
+        "id": 17,
+        "userPhotoUrl": "https://randomuser.me/api/portraits/men/5.jpg",
+        "profileName": "William",
+        "username": "william_jones_business",
+        "timestamp": "2023-03-28T15:05:00Z",
+        "text": "That sounds amazing, Sophie! Would you mind sharing the recipe with us?"
+      },
+      {
+        "id": 18,
+        "userPhotoUrl": "https://randomuser.me/api/portraits/women/8.jpg",
+        "profileName": "Olivia",
+        "username": "olivia_green_environment",
+        "timestamp": "2023-03-28T15:10:00Z",
+        "text": "Baking is such a great stress-reliever too, Sophie! I love making cookies when I'm feeling overwhelmed."
+      }
+    ]
+  }  
 ]
