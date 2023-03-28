@@ -6,9 +6,24 @@ import Typography from "@mui/material/Typography";
 import SearchIcon from "@mui/icons-material/Search";
 import styles from "./Navigation.module.css";
 import { styleConstants } from "constants";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 function Navigation() {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [search, setSearch] = useState('');
+
+  const handleSubmitSearch = () => {
+    const queryParams = new URLSearchParams(location.search);
+    queryParams.set("search", search);
+    navigate({ search: queryParams.toString() });
+  }
+
+  const handleInputChange = (e) => {
+    setSearch(e.target.value);
+  }
+
   return (
     <Box sx={{ flexGrow: 1 }} className={styles.navigationWrapper}>
       <AppBar position="static" className={styles.barWrapper}>
@@ -23,7 +38,7 @@ function Navigation() {
               Social Feed
             </Link>
           </Typography>
-          <styleConstants.Search>
+          <styleConstants.Search onChange={(e) => handleInputChange(e)}>
             <styleConstants.SearchIconWrapper>
               <SearchIcon />
             </styleConstants.SearchIconWrapper>
@@ -32,7 +47,7 @@ function Navigation() {
               inputProps={{ "aria-label": "search" }}
             />
           </styleConstants.Search>
-          <Button variant="contained" className={styles.submitButton}>
+          <Button variant="contained" className={styles.submitButton} onClick={() => handleSubmitSearch()}>
             submit
           </Button>
         </Toolbar>
